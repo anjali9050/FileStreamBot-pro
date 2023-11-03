@@ -21,9 +21,21 @@
 
 <hr>
 
-#### Please give a ⭐ to this repository to appreciate my efforts and follow me so you that you get to know whenever I release a new Project!
+## Project Discontinuation Notice and Disclaimer
 
-#### If you like my work and would like to hire/sponsor me [click here](https://t.me/+KvjFjOWicuZmOTQx).
+**Please Note**:
+
+This project has been discontinued and is no longer actively maintained or updated. As a result, it may contain outdated dependencies or potential security vulnerabilities.
+
+**Disclaimer:**
+
+This code is provided as-is, for educational purposes only, with no support or warranty. The developer is not liable for any legal consequences, damages, or issues that may arise from its use.
+
+By using this code, you accept these terms and conditions, agreeing that all risks and responsibilities lie with you, the end user. Ensure the code's suitability for your needs before proceeding.
+
+Feel free to use the existing code for educational or reference purposes, but be aware that it may not be suitable for production use without significant updates and improvements.
+
+Thank you for your interest in this project, and we appreciate your understanding regarding its discontinuation.
 
 <hr>
 
@@ -59,21 +71,6 @@
 💥All unwanted code removed. <br>
 💥A lot more tired of writing check out by deploying it. 
 </details>
-<details>
-  <summary><b>Host it on VPS Locally :</b></summary>
-  <details>
-  <summary><b>Deploy on Ubuntu<b></summary>
-  If you are on Ubuntu, there's a 10 times easier way to deploy this bot. Just copy the command below and you're good to go.
-  
-  ```sh
-  apt-get update -y && apt-get upgrade -y && apt-get install curl -y && curl https://raw.githubusercontent.com/adarsh-goel/FileStreamBot-pro/main/script.sh -o script.sh && bash script.sh
-  ```
-
-  and to stop the whole bot,
- do <kbd>CTRL</kbd>+<kbd>C</kbd>
-
-  </details>
-
   <details>
   <summary><b>Deploy on Windows or other plataform<b></summary>
   
@@ -94,11 +91,11 @@ and to stop the whole bot,
  do <kbd>CTRL</kbd>+<kbd>C</kbd>
 
  </details>
+</details>
+<details>
+  <summary><b>Vars and Details :</b></summary>
 
-Setting up things
-
-If you're on Heroku, just add these in the Environmental Variables
-or if you're Locally hosting, create a file named `config.env` in the root directory and add all the variables there.
+Create a file named `config.env` in the root directory and add all the variables there.
 An example of `config.env` file:
 
 ```py
@@ -111,11 +108,6 @@ FQDN=your_server_ip
 OWNER_ID=your_user_id
 DATABASE_URL=mongodb_uri
 ```
-  </details>
-
-<details>
-  <summary><b>Vars and Details :</b></summary>
-
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
 
 `API_HASH` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
